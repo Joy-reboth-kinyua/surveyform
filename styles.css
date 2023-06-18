@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://images.app.goo.gl/5UgPmqpFspxdmrzg9);
+    font-family: sans-serif;
+    padding:20px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+hr {
+    height: 2px;
+    background-color: aqua;
+    border-color: #00ffff;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstname {
+    text-align: left;
+}
+.middlename {
+    text-align: right;
+}
+.yes {
+    text-align: left;
+}
+.no {
+    text-align: right;
+}
+button {
+    background-color: blueviolet;
+}
+a:visted {
+    color: red;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: blueviolet;
+}
