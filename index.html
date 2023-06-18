@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+   
+        <img src="https://images.app.goo.gl/snZdKTG8NacB97Cu8" alt="electronics shop icon">
+        <h1><strong>Jovicon Electronics Store</strong></h1>
+        <hr>
+        <section>
+            <h2>Customer Satisfaction Survey Form</h2>
+            <p>we as Jovicon Electronics Store would really love to offer the best services for our customers. To help us improve our services, please take this short survey. Share ideas on how we can better serve you next time. We value your feedback!</p>
+        </section>
+        <form action="results.html" method="get" enctype="multipart/form-data">
+            <div>
+                username
+                <div>
+                  <label for="firstname" class="firstname">First Name</label><input type="text" name="firstname" id="firstname"><label for="middlename" class="middlename">Middle name</label><input type="text" name="middlename" id="middlename"> 
+                </div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>How satisfied are you with the service you recieved today?</legend>
+                    <label for="satisfied">satisfied</label>
+                    <input type="radio" name="satisfied" id="satisfied">
+                    <label for="somewhatsatisfied">Somewhat satisfied</label>
+                    <input type="radio" name="service" id="somewhatsatisfied">
+                    <label for="neutral">Neutral</label>
+                    <input type="radio" name="service" id="neutral">
+                    <label for="dissatisfied">Dissatisfied</label>
+                    <input type="radio" name="service" id="dissatisfied">
+                </fieldset>
+                <fieldset>
+                    <legend>On the scale of 1 to 10, how satisfied are you with your in-store experience today?</legend>
+                    <label><input type="number" name="number" min="1" max="10" step="1"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>How can we better connect eith our customers?</legend>
+                    <label for="personalized">Personalized chatrooms</label>
+                    <input type="checkbox" name="personalized" id="personalized">
+                    <label for="video">Video conferences</label>
+                    <input type="checkbox" name="video" id="video">
+                    <label for="telephone">Telephone conferences</label>
+                    <input type="checkbox" name="telephone" id="telephone" >
+                </fieldset>
+                <fieldset>
+                    <legend>how likely are you to recommend our electronic devices and apliances to others?</legend>
+                    <textarea cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>How likely are you to purchase again from us?</legend>
+                    <label ><input type="number" min="10%" max="100%" step="10%"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>What would be one word to describe us and why?</legend>
+                    <label><input type="text"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Would you be open todiscussing upgrade options for your product?</legend>
+                    <label for="yes" class="yes">Yes</label><input type="radio" name="yes" id="yes"><label for="no">No, thenks</label><input type="radio" name="no" id="no">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Do you have any additional comment or feedback for us?</legend>
+                    <label><input type="text"></label>
+                </fieldset>
+            </div>
+          <button type="submit">submit</button>
+          <button type="reset">Reset</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>thank you for the feeback.we will try our best to rectify on it. </p>
+        <p>To view more of our services, click on the link below</p>
+        <p><a href="https://images.app.goo.gl/oU9qS2wdfQTSQif6A">Visit our website.</a></p>
+    </footer>
+    
+</body>
+</html>
